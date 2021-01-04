@@ -29,3 +29,18 @@ The following information needs to be easily accessible to users who visit the s
 * Bigger reach.
 * Organise members/users.
 * Advertise upcoming fixtures.
+
+## Wireframes
+
+# Features
+## Existing Features 
+* Hero Image.
+* Functional Nav Bar.
+* Lists ordered and unordered.
+* The Site allows you to see previous events held.
+
+
+## Features left to implement 
+* Members area/login page.
+* Page for local driving ranges with links to external sites.
+* leaderbord for society. 
