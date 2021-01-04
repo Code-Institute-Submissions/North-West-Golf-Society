@@ -88,10 +88,12 @@ h1 {
     color: white;
 }
 
-#join-reasons h2 {
+#hello {
     padding-top: 20px;
     text-align: center;
     color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 #left-join {
@@ -111,10 +113,57 @@ h1 {
     margin: 0 auto;
 }
 
-.left-join.heading {
+hr {
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.left-join-heading {
     width: 50%;
     float: right;
     line-height: 15px;
     clear: both;
     margin-bottom: 50px;
 }
+
+.right-join-heading {
+    width: 50%;
+    float: left;
+    line-height: 15px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.left-join-heading h3 {
+    float: left;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+.right-join-heading h3 {
+    float: right;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+#circle-ball {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-style: ridge;
+    border-color: white;
+    border-width: medium;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+#ball-bg {
+    background: url(../img/circle-ball.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 50%;
+}
+
