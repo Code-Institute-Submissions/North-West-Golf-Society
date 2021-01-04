@@ -48,30 +48,73 @@ h1 {
 #nav a:hover {
     color: black;
     transition: 0.9s;
-    border-top: 1px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     text-transform: uppercase;
 }
 
 
 #about h3 {
     text-align: center;
+    text-decoration: underline;
+    padding-top: -20px;
 }
 
 #about p {
     text-align: center;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 20px 10px;
 }
 
 #hero {
-    height: 500px;
+    height: 450px;
     width: 100%;
     background-color: #cccccc;
-    background-image: linear-gradient(black, white, green);
-    z-index: -1;
+  /*--- background-image: linear-gradient(black, white, #004d17);----*/
+    background-image: url(../img/balll.jpg);
+    background-position: center center;
+    background-size: cover;
+
 }
 
 #hero-out {
     height: 500px;
     width: 100%;
     overflow: hidden;
+}
+
+#join-reasons {
+    background-color: #004d17;
+    height: 500px;
+    color: white;
+}
+
+#join-reasons h2 {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#left-join {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-join {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-join {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.left-join.heading {
+    width: 50%;
+    float: right;
+    line-height: 15px;
+    clear: both;
+    margin-bottom: 50px;
 }
