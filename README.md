@@ -38,9 +38,27 @@ The following information needs to be easily accessible to users who visit the s
 * Functional Nav Bar.
 * Lists ordered and unordered.
 * The Site allows you to see previous events held.
+* Functional contact form, this can be used by users looking to join the society, or rival socities enquiring about a match.
 
 
 ## Features left to implement 
 * Members area/login page.
 * Page for local driving ranges with links to external sites.
 * leaderbord for society. 
+
+# Technologies used
+* This project has used simple HTML5 and CSS3.
+* Google Fonts.
+* Font Awesome.
+
+# Testing
+* Few bugs have been encountered. Initally had difficulty adding images to site but file path was not correct, amended and fixed.
+
+# Credits
+## Media
+* Credit to Upsplash for images used. 
+## Code 
+* I found that tutorials on the Code Institute program and certain elements for the Love Runnig Project can in useful to understanding how to code certain aspects of the site.
+## Acknowledgments
+* I have to say thank you to memebers of existing Golf Societies who I interviewed prior to completing this project.
+Especially Matthew Davison who advised what features they would expect to find on a site, being a memeber of one himslef. 
