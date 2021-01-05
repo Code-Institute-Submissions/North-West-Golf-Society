@@ -58,7 +58,7 @@ h1 {
 #about h3 {
     text-align: center;
     text-decoration: underline;
-    padding-top: -20px;
+    padding-top: 0px;
 }
 
 #about {
@@ -336,6 +336,41 @@ hr {
     .gallery img {
         width: 60%;
     }
+
+    .enquire-title {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        display: inline-block;
+        overflow: scroll;
+    }
+
+    .enquire-form {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        display: inline-block;
+        overflow: scroll;
+}
+}
+
+@media screen and (max-width: 803px){
+     .enquire-title {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        display: inline-block;
+        overflow: scroll;
+    }
+
+    .enquire-form {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        display: inline-block;
+        overflow: scroll;
+    }
+
 }
 
 /*--- contact page ---*/
