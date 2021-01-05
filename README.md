@@ -53,6 +53,8 @@ The following information needs to be easily accessible to users who visit the s
 
 # Testing
 * Few bugs have been encountered. Initally had difficulty adding images to site but file path was not correct, amended and fixed.
+* Found bug when validating CSS in Jigsaw, negative px padding not allowed. Fixed via adding 0px padding (.about h3).
+* When validating HTML, I had added 'type=text' to a <textarea> element, which was not necessary - removed. 
 
 # Credits
 ## Media
@@ -61,4 +63,4 @@ The following information needs to be easily accessible to users who visit the s
 * I found that tutorials on the Code Institute program and certain elements for the Love Runnig Project can in useful to understanding how to code certain aspects of the site.
 ## Acknowledgments
 * I have to say thank you to memebers of existing Golf Societies who I interviewed prior to completing this project.
-Especially Matthew Davison who advised what features they would expect to find on a site, being a memeber of one himslef. 
+Especially Matthew Davison who advised what features they would expect to find on a site, being a memeber of one himself. 
