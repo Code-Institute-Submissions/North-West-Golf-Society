@@ -79,7 +79,6 @@ h1 {
     height: 450px;
     width: 100%;
     background-color: #cccccc;
-  /*--- background-image: linear-gradient(black, white, #004d17);----*/
     background-image: url(../img/balll.jpg);
     background-position: center center;
     background-size: cover;
@@ -234,7 +233,7 @@ hr {
 /* footer */
 .site-footer {
     background-color: #004617;
-	height: 375px;
+	height: 300px;
 }
 
 /*Social Media Icons*/
@@ -337,4 +336,35 @@ hr {
     .gallery img {
         width: 60%;
     }
+}
+
+/*--- contact page ---*/
+
+#form-bg {
+    height: 600px;
+    width: 100%;
+    background-color: #cccccc;
+    background-image: url(../img/royal-birkdale..jpg);
+    background-position: center center;
+    background-size: cover; 
+}
+
+#contact-out {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.enquire-form {
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+
+textarea {
+    size: 400px;
 }
