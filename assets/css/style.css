@@ -19,6 +19,7 @@ h1 {
 }
 
 #title {
+    margin: 10px;
     float: left;
     font-size: 250%;
 
@@ -275,4 +276,65 @@ hr {
 .caption {
   padding: 15px;
   text-align: center;
+}
+
+/*----- Media Query ------*/
+
+@media screen and (max-width: 1173px) {
+
+    #title {
+        text-align: center;
+    }
+
+    #nav {
+        padding-left: 50px;
+        margin: 0 auto;
+        clear: left;
+        float: left;
+        
+    }
+    #about {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        display: inline-block;
+        overflow: scroll;
+        }
+        
+    #about h3 {
+        text-align: center;
+        }
+    
+    #join-reasons {
+        width: 100%;
+        padding: 0;
+        overflow: scroll;
+        display: inline-block;
+        clear: both;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .left-join-heading, .right-join-heading {
+        clear: both;
+    }
+
+    #center-join {
+        clear: both;
+        float: left;
+        padding-left: 70px;
+
+    }
+
+    #events {
+        overflow: scroll;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .gallery img {
+        width: 60%;
+    }
 }
