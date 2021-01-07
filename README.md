@@ -7,9 +7,6 @@ Aim of this project was to create a fully responsive, interactive website for a 
 The following information needs to be easily accessible to users who visit the site within a few clicks -
 * The size of the society.
 * Who can join?
-* Is there a membership fee?
-* Past/Future Events. 
-* What level of experience do you need to join?
 * How to join?
 * Contact information.
 * Links to social media accounts.
@@ -54,7 +51,9 @@ The following information needs to be easily accessible to users who visit the s
 # Testing
 * Few bugs have been encountered. Initally had difficulty adding images to site but file path was not correct, amended and fixed.
 * Found bug when validating CSS in Jigsaw, negative px padding not allowed. Fixed via adding 0px padding (.about h3).
-* When validating HTML, I had added 'type=text' to a <textarea> element, which was not necessary - removed. 
+* When validating HTML, I had added 'type=text' to a 'textarea' element, which was not necessary - removed. 
+* Bug encountered when reviewing code for responsive design, padding adjusted around 'why join img'. 
+
 
 # Credits
 ## Media

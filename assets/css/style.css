@@ -97,7 +97,7 @@ h1 {
     color: white;
 }
 
-#hello {
+#join-header {
     padding-top: 20px;
     text-align: center;
     color: white;
@@ -264,17 +264,15 @@ hr {
 }
 
 .gallery img {
-    width:25%;
+    width:35%;
     
-    
-
-
 }
 
 
 .caption {
   padding: 15px;
   text-align: center;
+  text-decoration: underline;
 }
 
 /*----- Media Query ------*/
@@ -318,13 +316,15 @@ hr {
 
     .left-join-heading, .right-join-heading {
         clear: both;
+        
     }
 
     #center-join {
         clear: both;
+        width: 100%;
+        padding: 0;
         float: left;
-        padding-left: 70px;
-
+        margin-bottom: 10px;
     }
 
     #events {
@@ -338,19 +338,25 @@ hr {
     }
 
     .enquire-title {
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
         display: inline-block;
         
     }
 
     .enquire-form {
-        width: 100%;
+        width: 80%;
         padding: 0;
         margin: 0 auto;
         display: inline-block;
         overflow: scroll;
 }
+
+    .form {
+        width: 90%;
+        overflow: scroll;
+
+    }
 }
 
 @media screen and (max-width: 769px){
@@ -368,8 +374,7 @@ hr {
     }
 
     #name {
-        display: inline-block;
-        width: 60%;
+        width: 40%;
     }
 
     
