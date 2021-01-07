@@ -233,14 +233,15 @@ hr {
 /* footer */
 .site-footer {
     background-color: #004617;
-	height: 250px;
+    height: 250px;
+    
 }
 
 /*Social Media Icons*/
 .social-icons {
   text-align: center;
   margin: 0 auto;
-  padding-top: 50px;
+  margin-top: 50px 0px, 50px, 0;
 }
 
 .social-icons li {
@@ -287,9 +288,9 @@ hr {
         padding-left: 50px;
         margin: 0 auto;
         clear: left;
-        float: left;
-        
+        float: left;    
     }
+
     #about {
         width: 100%;
         padding: 0;
@@ -352,36 +353,188 @@ hr {
         overflow: scroll;
 }
 
-    .form {
-        width: 90%;
-        overflow: scroll;
-
-    }
+  
 }
 
-@media screen and (max-width: 769px){
-     .enquire-title {
-        width: 80%;
+@media screen and (max-width: 769px) and (min-width: 461px) {
+
+     #nav {
+        padding-left: 50px;
         margin: 0 auto;
-      
+        clear: both;   
+    }
+
+    /*--------index.html----------*/
+
+    .col-3-of-3{
+        clear: both;
+        float: left;
+        text-align: center;
+    }
+
+    /*---------contact form--------*/
+
+     .enquire-title {
+        max-width: 700px;
+        margin: 0 auto;
+        margin-right: 10px;
     }
 
     .enquire-form {
-        width: 80%;
+        max-width: 700px;
         margin: 0 auto;
+        margin-right: 10px;
         display: inline-block;
-        overflow: scroll;
+        overflow-y: scroll;
+       
     }
 
-    #name {
-        width: 40%;
-    }
-
-    
-
-    
-
+    .name-field {
+    position: relative;
+    left: 100px;
+    top: -37px;
+    line-height: 15px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 10px;
 }
+
+    .contact-out{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 460px) and (min-width: 320px){
+
+    /*---------------Nav-------------*/
+
+    #nav 
+       {
+        widows: 60%;
+        display: inline-block;
+      }
+
+    #nav li {
+        float: left;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    /*------index.html------*/
+      .col-3-of-3{
+        clear: both;
+        float: left;
+        text-align: center;
+    }
+
+            
+    
+/*----------------------------------*/
+     
+    .gallery img {
+        width: 70%;
+        height: 200px;
+    }
+/*-------------------contact page -------------------*/
+   
+    .enquire-title{
+        max-width: 90%;
+        margin: 5px;
+        
+    }
+
+    form {
+        max-width: 90%;
+    }
+
+    .enquire-title h3 {
+        font-size: 10px;
+    }
+
+    .enquire-form {
+    background-color: rgb(0, 0, 0, 0.5);
+    max-width: 90%;
+    margin: auto;
+    max-height: 90%;
+}
+
+    .name {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 15px;
+    color: white;
+    font-size: 5px;
+    font-weight: 200;
+}  
+
+.name-field {
+    position: relative;
+    left: 100px;
+    top: -37px;
+    line-height: 15px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 10px;
+}
+
+
+
+
+    .email {
+        max-width: 200px;
+        line-height: 9px;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    .date {
+        max-width: 200px;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    textarea {
+        max-width: 200px;
+    }
+
+
+    button {
+        width: 10%;
+        font-size: 10px;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+
+   /* ------ footer-------*/
+
+
+    .site-footer{
+        width: 100%;
+    }
+
+    .social-icons {
+        float: left;
+        display: inline;
+        padding: 0;
+        margin: 0 auto;
+
+    }
+
+     
+}
+
+
+
+
+
+
+
+
+
+
 
 /*--- contact page ---*/
 
@@ -438,7 +591,7 @@ form {
     font-weight: 700;
 }
 
-.firstname {
+.name-field {
     position: relative;
     left: 200px;
     top: -37px;
@@ -446,35 +599,6 @@ form {
     border-radius: 5px;
     padding: 0 22px;
     font-size: 15px;
-}
-
-.lastname {
-    position: relative;
-    left: 417px;
-    top: -67px;
-    line-height: 30px;
-    border-radius: 5px;
-    padding: 0 22px;
-    font-size: 15px;
-    color: #555;
-}
-
-.firstlabel {
-    position: relative;
-    color: #e5e5e5;
-    text-transform: uppercase;
-    font-size: 12px;
-    left: 203px;
-    top: -45px;
-}
-
-.lastlabel {
-    position: relative;
-    color: #e5e5e5;
-    text-transform: uppercase;
-    font-size: 12px;
-    left: 203px;
-    top: -45px;
 }
 
 .email  {
@@ -534,6 +658,7 @@ button {
     color: white;
     cursor: pointer;
 }
+
 
 
 
