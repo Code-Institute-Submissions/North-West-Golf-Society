@@ -28,7 +28,8 @@ h1 {
 #nav {
     font-size: 120%;
     list-style-type: none;
-    letter-spacing: 3px;    
+    letter-spacing: 3px;  
+      
 }
 
 #title, #nav {
@@ -55,6 +56,22 @@ h1 {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     text-transform: uppercase;
+}
+
+#hero {
+    height: 450px;
+    width: 100%;
+    background-color: #cccccc;
+    background-image: url(../img/balll.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+#hero-out {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
 }
 
 
@@ -86,21 +103,6 @@ h1 {
     margin: 0 auto;
 }
 
-#hero {
-    height: 450px;
-    width: 100%;
-    background-color: #cccccc;
-    background-image: url(../img/balll.jpg);
-    background-position: center center;
-    background-size: cover;
-
-}
-
-#hero-out {
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
-}
 
 
 
@@ -112,13 +114,12 @@ hr {
 #circle-ball {
     width: 300px;
     height: 300px;
-    padding: 20px;
+    padding: 50px;
     border-style: ridge;
     border-color: white;
     border-width: medium;
     border-radius: 50%;
     margin: 0 auto;
-    margin-top: 75px;
 }
 
 #ball-bg {
@@ -195,40 +196,14 @@ hr {
 
  
         
-    #about h3 {
-        text-align: center;
-        }
-    
-    #join-reasons {
-        width: 100%;
-        padding: 0;
-        overflow: scroll;
-        display: inline-block;
-        clear: both;
-    }
-
+   
     hr {
         display: none;
     }
 
-    .left-join-heading, .right-join-heading {
-        clear: both;
-        
-    }
+    
 
-    #center-join {
-        clear: both;
-        width: 100%;
-        padding: 0;
-        float: left;
-        margin-bottom: 10px;
-    }
-
-    #events {
-        overflow: scroll;
-        display: inline-block;
-        width: 100%;
-    }
+   
 
     .gallery img {
         width: 60%;
@@ -260,14 +235,7 @@ hr {
         clear: both;   
     }
 
-    /*--------index.html----------*/
-
-    .col-3-of-3{
-        clear: both;
-        float: left;
-        text-align: center;
-    }
-
+    
     /*---------contact form--------*/
 
      .enquire-title {
@@ -471,111 +439,67 @@ hr {
     overflow: hidden;
 }
 
-/*------ Form ------*/
 
-.enquire-title {
-    width: 800px;
-    background-color: rgb(0, 0, 0, 0.6);
-    margin: 0 auto;
-    color: #ffffff;
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-    border-radius: 15px 15px 0px 0px;
+.enquire-here{
+    max-width: 800px;
+    margin: 0px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+
+.enquire-here .title {
     text-transform: uppercase;
-}
-
-.enquire-form {
-    background-color: rgb(0, 0, 0, 0.5);
-    width: 800px;
-    margin: auto;
-}
-
-form {
-    padding: 10px;
-}
-
-#name {
-    width: 100%;
-    height: 100px;
-}
-
-.name {
-    margin-left: 25px;
-    margin-top: 10px;
-    width: 125px;
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.name-field {
-    position: relative;
-    left: 200px;
-    top: -37px;
-    line-height: 30px;
-    border-radius: 5px;
-    padding: 0 22px;
-    font-size: 15px;
-}
-
-.email  {
-    position: relative;
-    left: 200px;
-    top: -37px;
-    line-height: 30px;
-    border-radius: 5px;
-    width: 500px;
-    padding: 0 22px;
-    font-size: 15px;
-    color: #555;
-}
-
-.date {
-    position: relative;
-    left: 200px;
-    top: -37px;
-    line-height: 30px;
-    border-radius: 5px;
-    font-size: 15px;
-    color: #555;
-}
-
-.contact {
-     position: relative;
-    left: 200px;
-    top: -37px;
-    line-height: 30px;
-    border-radius: 5px;
-    font-size: 15px;
-    color: #555;
-}
-
-
-textarea {
-     position: relative;
-    left: 200px;
-    top: -50px;
-    line-height: 30px;
-    border-radius: 5px;
-    width: 500px;
-    padding: 0 22px;
-    font-size: 15px;
-    color: #555;
-}
-
-button {
-    background-color: #004d17;
-    display: block;
-    margin: 0 auto;
     text-align: center;
-    border-radius: 12px;
-    border: 2px solid white;
-    padding: 5px 100px;
-    outline: none;
+    letter-spacing: 2px;
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 20px;
     color: white;
-    cursor: pointer;
+    
 }
 
+.contact-form .form-field{
+    position: relative;
+    margin:20px 0;
+}
 
+.contact-form .input-text {
+    display: block;
+    width: 80%;
+    height: 20px;
+    border-width: 0 0 2px 0;
+    border-color:black;
+    font-size: 15px;
+    line-height: 20px;
+}
 
+.contact-form .label {
+    float: left;
+    left: 15px;
+    bottom: 10px;
+    font-size: 10px;
+    line-height: 15px;
+    color: white;
+    cursor: text;
+}
+
+.contact-form .submit-btn {
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding-bottom: 5px 10px;
+    border: white solid 2px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #004617;
+}
+
+.container-from .row {
+    display: inline;
+    float: left;
+}
 
