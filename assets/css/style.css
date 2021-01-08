@@ -402,6 +402,27 @@ hr {
     .contact-out{
         width: 90%;
     }
+
+    .name {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 15px;
+    color: white;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+    .email {
+        max-width: 210px;
+        line-height: 9px;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    textarea {
+        max-width: 400px;
+    }
+    
 }
 
 
