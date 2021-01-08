@@ -68,8 +68,9 @@ h1 {
     padding: 5px;
 }
 
-.join-row {
+.event-container {
     text-align: center;
+    padding: 5px;
 }
 
 #hero {
