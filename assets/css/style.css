@@ -43,12 +43,15 @@ h1 {
 #nav a {
     text-decoration: none;
     color: inherit;
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase;
 
 }
 
 #nav a:hover {
     color: black;
-    transition: 0.9s;
+    transition: 0.1s;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     text-transform: uppercase;
@@ -56,21 +59,31 @@ h1 {
 
 
 .about-container {
-    background-color: #004617;
-    color: white;
+    background-color: white;
+    color: #004617;
     text-align: center;
     padding: 5px;
-    border: 2px white solid;
+    border: 2px #004617 solid;
 }
 
 .join-container {
     text-align: center;
     padding: 5px;
+    background-color: #004617;
+    color: white;
 }
 
 .event-container {
     text-align: center;
     padding: 5px;
+    background-color: #004617;
+    color: white;
+
+}
+
+.event-header {
+    text-align: center;
+    margin: 0 auto;
 }
 
 #hero {
@@ -89,68 +102,11 @@ h1 {
     overflow: hidden;
 }
 
-#join-reasons {
-    background-color: #004d17;
-    height: 500px;
-    color: white;
-}
 
-#join-header {
-    padding-top: 20px;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-#left-join {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-join {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-join {
-    width: 33%;
-    margin: 0 auto;
-}
 
 hr {
     border-top: 1px solid white;
     width: 100%;
-}
-
-.left-join-heading {
-    width: 50%;
-    float: right;
-    line-height: 15px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-join-heading {
-    width: 50%;
-    float: left;
-    line-height: 15px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.left-join-heading h3 {
-    float: left;
-    font-size: medium;
-    text-transform: uppercase;
-}
-
-.right-join-heading h3 {
-    float: right;
-    font-size: medium;
-    text-transform: uppercase;
 }
 
 #circle-ball {
@@ -174,59 +130,7 @@ hr {
     border-radius: 50%;
 }
 
-#events-header {
-    padding-top: 15px;
-    padding-bottom: 25px;
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
 
-#events {
-    height: 400px;
-    border: #004d17 solid;
-    padding: 20px;
-    margin: 10px;
-}
-
-#event-cols {
-    width: 80%;
-    border: #004d17;
-    padding: 20px;
-    display: inline;
-    height: 250px;
-}
-
-.col-1-of-3  {
-
-    width: 30%;
-    float: left;
-    margin: 0 auto;
-    margin-right: 55px;
-    padding: 20px;
-    padding-right: 30px;
-    text-align: left;
-}
-
-.col-2-of-3 {
-
-    width: 30%;
-    float: left;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    
-}
-
-.col-3-of-3 {
-    
-    width: 30%;
-    float: right;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: right;
-}
 
 /* footer */
 .site-footer {
