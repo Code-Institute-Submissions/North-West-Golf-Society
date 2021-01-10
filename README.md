@@ -31,6 +31,15 @@ The following information needs to be easily accessible to users who visit the s
 
 # Features
 ## Existing Features 
+Each page has navigation bar with responsive features.
+* The page title when clicked will direct you back to index.html page
+* On the navigation bar itself, when each word is clicked (gallery, home, contact) you will be taken to the respective pages.
+
+Each page has a fully responsive footer section. The footer includes:
+* Link to Instagram
+* Link to Twitter
+* Link to Facebook 
+### index.html 
 * Hero Image.
 * Functional Nav Bar.
 * Lists ordered and unordered.
@@ -45,14 +54,23 @@ The following information needs to be easily accessible to users who visit the s
 
 # Technologies used
 * This project has used simple HTML5 and CSS3.
+* Bootstrap
+* GitPod
+* Balsamic Wireframes
 * Google Fonts.
 * Font Awesome.
 
 # Testing
-* Few bugs have been encountered. Initally had difficulty adding images to site but file path was not correct, amended and fixed.
-* Found bug when validating CSS in Jigsaw, negative px padding not allowed. Fixed via adding 0px padding (.about h3).
-* When validating HTML, I had added 'type=text' to a 'textarea' element, which was not necessary - removed. 
-* Bug encountered when reviewing code for responsive design, padding adjusted around 'why join img'. 
+## Browsers tested
+* Chrome, Opera and Firefox, no issues.
+
+## Features tested
+* All navigations links tested across all pages, no issues. 
+* All gallery images tested, when clicked open in new tab.
+* Text fields in contact form all working correctly.
+* Site fully responsive to all breakpoints. 
+
+
 
 
 # Credits
