@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -17,6 +17,9 @@ h1 {
     letter-spacing: 3px;
     color: black;
 }
+
+
+/*-------------------------------------- Header -------*/
 
 #title {
     margin: 10px;
@@ -58,6 +61,9 @@ h1 {
     text-transform: uppercase;
 }
 
+
+/*-------------------------------------- Hero -------*/
+
 #hero {
     height: 450px;
     width: 100%;
@@ -75,6 +81,7 @@ h1 {
 }
 
 
+
 .about-container {
     background-color: white;
     color: #004617;
@@ -89,22 +96,6 @@ h1 {
     background-color: #004617;
     color: white;
 }
-
-.event-container {
-    text-align: center;
-    padding: 5px;
-    background-color: #004617;
-    color: white;
-
-}
-
-.event-header {
-    text-align: center;
-    margin: 0 auto;
-}
-
-
-
 
 hr {
     border-top: 1px solid white;
@@ -131,16 +122,21 @@ hr {
     border-radius: 50%;
 }
 
+.event-header {
+    text-align: center;
+    margin: 0 auto;
+}
 
 
-/* footer */
+/*-------------------------------------- Footer -------*/
+
 .site-footer {
     background-color: #004617;
     height: 250px;
     
 }
 
-/*Social Media Icons*/
+/*-------------------------------------- Social Media Icons -------*/
 .social-icons {
   text-align: center;
   margin: 0 auto;
@@ -159,19 +155,15 @@ hr {
     color: white;
 }
 
-/*Gallery Styles */
+/*-------------------------------------- Gallery -------*/
 .gallery {
     clear: both;
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 
 .gallery img {
-    width:35%;
-    
+    width: 60%;
 }
-
 
 .caption {
   padding: 15px;
@@ -179,7 +171,7 @@ hr {
   text-decoration: underline;
 }
 
-/*----- Media Query ------*/
+/*-------------------------------------- Media Query -------*/
 
 @media screen and (max-width: 1173px) {
 
@@ -194,37 +186,13 @@ hr {
         float: left;    
     }
 
- 
-        
-   
     hr {
         display: none;
     }
 
-    
-
-   
-
     .gallery img {
         width: 60%;
-    }
-
-    .enquire-title {
-        width: 80%;
-        margin: 0 auto;
-        display: inline-block;
-        
-    }
-
-    .enquire-form {
-        width: 80%;
-        padding: 0;
-        margin: 0 auto;
-        display: inline-block;
-        overflow: scroll;
-}
-
-  
+    }  
 }
 
 @media screen and (max-width: 769px) and (min-width: 461px) {
@@ -236,86 +204,24 @@ hr {
     }
 
     
-    /*---------contact form--------*/
-
-     .enquire-title {
-        max-width: 700px;
-        margin: 0 auto;
-        margin-right: 10px;
-    }
-
-    .enquire-form {
-        max-width: 700px;
-        margin: 0 auto;
-        margin-right: 10px;
-        display: inline-block;
-        overflow-y: scroll;
-       
-    }
-
-    .name-field {
-    position: relative;
-    left: 100px;
-    top: -37px;
-    line-height: 15px;
-    border-radius: 5px;
-    padding: 0 22px;
-    font-size: 10px;
-}
-
-    .contact-out{
-        width: 90%;
-    }
-
-    .name {
-    margin-left: 5px;
-    margin-top: 5px;
-    width: 15px;
-    color: white;
-    font-size: 10px;
-    font-weight: 200;
-}
-
-    .email {
-        max-width: 210px;
-        line-height: 9px;
-        clear: both;
-        margin: 0 auto;
-    }
-
-    textarea {
-        max-width: 400px;
-    }
-    
-}
 
 
-@media screen and (max-width: 460px) and (min-width: 320px){
+
+@media screen and (max-width: 487px) and (min-width: 320px){
 
     /*---------------Nav-------------*/
 
-    #nav 
-       {
-        widows: 60%;
-        display: inline-block;
-      }
+    #nav {
+        padding-left: 10px;
+        margin: 0 auto;
+        clear: both;   
+    }
 
     #nav li {
-        float: left;
+        display: inline;
         padding: 5px;
         font-size: 10px;
     }
-
-    /*------index.html------*/
-      .col-3-of-3{
-        clear: both;
-        float: left;
-        text-align: center;
-    }
-
-            
-    
-/*----------------------------------*/
      
     .gallery img {
         width: 70%;
@@ -329,71 +235,8 @@ hr {
         
     }
 
-    form {
-        max-width: 90%;
-    }
 
-    .enquire-title h3 {
-        font-size: 10px;
-    }
-
-    .enquire-form {
-    background-color: rgb(0, 0, 0, 0.5);
-    max-width: 90%;
-    margin: auto;
-    max-height: 90%;
-}
-
-    .name {
-    margin-left: 5px;
-    margin-top: 5px;
-    width: 15px;
-    color: white;
-    font-size: 5px;
-    font-weight: 200;
-}  
-
-.name-field {
-    position: relative;
-    left: 100px;
-    top: -37px;
-    line-height: 15px;
-    border-radius: 5px;
-    padding: 0 22px;
-    font-size: 10px;
-}
-
-
-
-
-    .email {
-        max-width: 200px;
-        line-height: 9px;
-        clear: both;
-        margin: 0 auto;
-    }
-
-    .date {
-        max-width: 200px;
-        margin: 0 auto;
-        clear: both;
-    }
-
-    textarea {
-        max-width: 200px;
-    }
-
-
-    button {
-        width: 10%;
-        font-size: 10px;
-        margin: 0 auto;
-        text-align: center;
-
-    }
-
-
-   /* ------ footer-------*/
+  /*-------------------------------------- Footer -------*/
 
 
     .site-footer{
@@ -503,3 +346,4 @@ hr {
     float: left;
 }
 
+}
