@@ -27,7 +27,22 @@ The following information needs to be easily accessible to users who visit the s
 * Organise members/users.
 * Advertise upcoming fixtures.
 
-## Wireframes
+# Wireframes
+
+## Desktop View
+
+* [Home](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./assets/wireframes/North%20West%20Golf%20Society%20-%20index.png)
+* [Gallery](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./assets/wireframes/North%20West%20Golf%20Socitety%20-%20Gallery.png)
+* [Contact](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./assets/wireframes/North%20West%20Golf%20Society%20-%20Enquire.png)
+
+## Mobile View
+
+* [Home](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./assets/wireframes/North%20West%20Golf%20Society%20index%20-%20Iphone.png)
+* [Gallery](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./assets/wireframes/North%20West%20Golf%20Society%20-%20Gallery%20-%20Iphone.png)
+* [Contact](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./assets/wireframes/North%20West%20Golf%20Society%20-%20Enquire%20-%20Iphone%20.png)
+
+
+
 
 # Features
 ## Existing Features 
@@ -72,19 +87,19 @@ Each page has a fully responsive footer section. The footer includes:
 
 # Deployment 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
-* Log into GitHub. From the list of repositories on the screen 
-* Select North-West-Golf-Soiciety.
-* Select Settings. 
-* Scroll down to the GitHub Pages section. 
-* Under Source click the drop-down menu labelled None
-* Select Master Branch On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
-* Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+1. Log into GitHub. From the list of repositories on the screen 
+2. Select North-West-Golf-Soiciety.
+3. Select Settings. 
+4. Scroll down to the GitHub Pages section. 
+5. Under Source click the drop-down menu labelled None
+6. Select Master Branch On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
-How to run this project locally to clone this project from GitHub:
-* Follow this link to the Project GitHub repository. Under the repository name, click "Clone or download". 
-* In the Clone with HTTPs section, copy the clone URL for the repository. In your local IDE open Git Bash. 
-* Type git clone, and then paste the URL you copied in Step 3. git clone https://github.com/USERNAME/REPOSITORY Press Enter. 
-* Your local clone will be created. Further reading and troubleshooting on cloning a repository from GitHub here.
+To clone this project from GitHub:
+1. Follow this link to the Project GitHub repository. Under the repository name, click "Clone or download". 
+2. In the Clone with HTTPs section, copy the clone URL for the repository. In your local IDE open Git Bash. 
+3. Type git clone, and then paste the URL you copied in Step 3. git clone https://github.com/USERNAME/REPOSITORY Press Enter. 
+4. Your local clone will be created. Further reading and troubleshooting on cloning a repository from GitHub here.
 Deployment: The site will be deployed by https://pages.github.com/
 
 
