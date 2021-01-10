@@ -70,6 +70,23 @@ Each page has a fully responsive footer section. The footer includes:
 * Text fields in contact form all working correctly.
 * Site fully responsive to all breakpoints. 
 
+# Deployment 
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+* Log into GitHub. From the list of repositories on the screen 
+* Select North-West-Golf-Soiciety.
+* Select Settings. 
+* Scroll down to the GitHub Pages section. 
+* Under Source click the drop-down menu labelled None
+* Select Master Branch On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+* Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+How to run this project locally to clone this project from GitHub:
+* Follow this link to the Project GitHub repository. Under the repository name, click "Clone or download". 
+* In the Clone with HTTPs section, copy the clone URL for the repository. In your local IDE open Git Bash. 
+* Type git clone, and then paste the URL you copied in Step 3. git clone https://github.com/USERNAME/REPOSITORY Press Enter. 
+* Your local clone will be created. Further reading and troubleshooting on cloning a repository from GitHub here.
+Deployment: The site will be deployed by https://pages.github.com/
+
 
 
 
