@@ -54,13 +54,19 @@ Each page has a fully responsive footer section. The footer includes:
 * Link to Instagram
 * Link to Twitter
 * Link to Facebook 
+
 ### index.html 
 * Hero Image.
 * Functional Nav Bar.
 * Lists ordered and unordered.
 * The Site allows you to see previous events held.
-* Functional contact form, this can be used by users looking to join the society, or rival socities enquiring about a match.
 
+### Gallery 
+* Has 3 images that when clicked direct you to a new tab and allows to to see a bigger version of image.
+
+### Contact
+* Functional contact form, this can be used by users looking to join the society, or rival socities enquiring about a match.
+* Contact form has a submit button that when hovered over changes type of cursor. 
 
 ## Features left to implement 
 * Members area/login page.
