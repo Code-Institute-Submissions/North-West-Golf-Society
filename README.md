@@ -3,7 +3,8 @@
 # North West Golf Society
 
 # Project Goals
-Aim of this project was to create a fully responsive, interactive website for a local golf society. This website would act as a central hub for existing members. It would also be a place prospective would-be members can visit in order to learn about this particular society and the events it holds and what trips they may be going on in the near future. 
+Aim of this project was to create a fully responsive, interactive website for a local golf society. 
+This website would act as a central hub for existing members. It would also be a place prospective would-be members can visit in order to learn about this particular society and the events it holds and what trips they may be going on in the near future. 
 The following information needs to be easily accessible to users who visit the site within a few clicks -
 * The size of the society.
 * Who can join?
@@ -24,8 +25,24 @@ The following information needs to be easily accessible to users who visit the s
 ## Owner Goals
 * Publicity for society.
 * Bigger reach.
-* Organise members/users.
+* Organise members/users, through seamless contact/enquiry form.
 * Advertise upcoming fixtures.
+* Offer an interactive site that keeps users interested.
+
+
+## User Potential
+* Keen golfers who live in the North West area of England.
+* People looking to improve their game surrounded by like-minded people.
+* Members of other societies looking to arrange a competitve round.
+* Golfers who are not yet part of a society, that want to join one.  
+
+## This website helps users achieve these aims as:
+* Other websites fail to explain the benifits of joining a society.
+* Other websites are often cluttered and difficult to navigate efficently.
+
+## This website:
+* Offers a clean and concise experiance, leading up to a simple contact form that encourages an enquiry at the very lease.
+* Provides clear information and is fully responsive.
 
 # Wireframes
 
@@ -55,7 +72,7 @@ Each page has a fully responsive footer section. The footer includes:
 * Link to Twitter
 * Link to Facebook 
 
-### index.html 
+### Home 
 * Hero Image.
 * Functional Nav Bar.
 * Lists ordered and unordered.
@@ -118,4 +135,4 @@ Deployment: The site will be deployed by https://pages.github.com/
 * I found that tutorials on the Code Institute program and certain elements for the Love Runnig Project can in useful to understanding how to code certain aspects of the site.
 ## Acknowledgments
 * I have to say thank you to memebers of existing Golf Societies who I interviewed prior to completing this project.
-Especially Matthew Davison who advised what features they would expect to find on a site, being a memeber of one himself. 
+Especially Matthew Davison who advised what features they would expect to find on a site, being a memeber of one himself.
