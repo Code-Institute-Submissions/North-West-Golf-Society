@@ -31,7 +31,8 @@ h1 {
 #nav {
     font-size: 120%;
     list-style-type: none;
-    letter-spacing: 3px;  
+    letter-spacing: 3px;
+    clear: both;  
       
 }
 
@@ -41,13 +42,13 @@ h1 {
 
 #nav li{
     float: right;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 #nav a {
     text-decoration: none;
     color: inherit;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
     text-transform: uppercase;
 

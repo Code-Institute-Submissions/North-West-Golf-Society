@@ -3,7 +3,7 @@
 # North West Golf Society
 
 # Project Goals
-Aim of this project was to create a fully responsive, interactive website for a local golf society. 
+The aim of this project was to create a fully responsive, interactive website for a local golf society. 
 This website would act as a central hub for existing members. It would also be a place prospective would-be members can visit in order to learn about this particular society and the events it holds and what trips they may be going on in the near future. 
 The following information needs to be easily accessible to users who visit the site within a few clicks -
 * The size of the society.
@@ -66,6 +66,8 @@ The following information needs to be easily accessible to users who visit the s
 Each page has navigation bar with responsive features.
 * The page title when clicked will direct you back to index.html page
 * On the navigation bar itself, when each word is clicked (gallery, home, contact) you will be taken to the respective pages.
+
+
 
 Each page has a fully responsive footer section. The footer includes:
 * Link to Instagram
