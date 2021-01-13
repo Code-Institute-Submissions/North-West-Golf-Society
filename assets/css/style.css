@@ -15,24 +15,26 @@ h1 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: black;
+    color: white;
 }
 
 
 /*-------------------------------------- Header -------*/
 
 #title {
-    margin: 10px;
-    float: left;
-    font-size: 250%;
+    background-color: #004617;
 
+}
+
+#title a {
+    text-decoration: none;
 }
 
 #nav {
     font-size: 120%;
     list-style-type: none;
     letter-spacing: 3px;
-    clear: both;  
+    
       
 }
 
@@ -40,9 +42,15 @@ h1 {
     line-height: 75px;
 }
 
+#nav {
+    margin: 0 auto;
+}
+
 #nav li{
-    float: right;
+    float: none;
     margin-right: 5px;
+    display: inline;
+    text-align: center;
 }
 
 #nav a {
