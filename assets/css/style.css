@@ -34,16 +34,13 @@ h1 {
     font-size: 120%;
     list-style-type: none;
     letter-spacing: 3px;
+    margin: 0 auto;
     
       
 }
 
 #title, #nav {
     line-height: 75px;
-}
-
-#nav {
-    margin: 0 auto;
 }
 
 #nav li{
