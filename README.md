@@ -110,6 +110,18 @@ Each page has a fully responsive footer section. The footer includes:
 * Text fields in contact form all working correctly.
 * Site fully responsive to all breakpoints. 
 
+## Validators
+### HTML
+HTML code has passed through W3C Validator. 
+#### index.html
+No errors/warnings.
+#### gallery.html
+No errors/warnings.
+#### contact.html
+Initially an error was found regarding having a heading had a h1 tag that was not a top priority heading - edited to h2 tag - fixed.
+### CSS
+This has passed through validator - no errors/warnings.
+
 # Deployment 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 1. Log into GitHub. From the list of repositories on the screen 
