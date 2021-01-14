@@ -1,433 +1,373 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    color: #004d17;
+	font-family: 'Raleway', sans-serif;
+	color: #004d17;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: white;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
 }
 
 
 /*-------------------------------------- Header -------*/
 
 #title {
-    background-color: #004617;
-
+	background-color: #004617;
 }
 
 #title a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 #nav {
-    font-size: 120%;
-    list-style-type: none;
-    letter-spacing: 3px;
-    margin: 0 auto;
-    
-      
+	font-size: 120%;
+	list-style-type: none;
+	letter-spacing: 3px;
+	margin: 0 auto;
 }
 
-#title, #nav {
-    line-height: 75px;
+#title,
+#nav {
+	line-height: 75px;
 }
 
-#nav li{
-    float: none;
-    margin-right: 5px;
-    display: inline;
-    text-align: center;
+#nav li {
+	float: none;
+	margin-right: 5px;
+	display: inline;
+	text-align: center;
 }
 
 #nav a {
-    text-decoration: none;
-    color: inherit;
-    margin: 5px;
-    padding: 5px;
-    text-transform: uppercase;
-
+	text-decoration: none;
+	color: inherit;
+	margin: 5px;
+	padding: 5px;
+	text-transform: uppercase;
 }
 
 #nav a:hover {
-    color: black;
-    transition: 0.1s;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    text-transform: uppercase;
+	color: black;
+	transition: 0.1s;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-transform: uppercase;
 }
 
 
 /*-------------------------------------- Hero -------*/
 
 #hero {
-    height: 450px;
-    width: 100%;
-    background-color: #cccccc;
-    background-image: url(../img/balll.jpg);
-    background-position: center center;
-    background-size: cover;
-
+	height: 450px;
+	width: 100%;
+	background-color: #cccccc;
+	background-image: url(../img/balll.jpg);
+	background-position: center center;
+	background-size: cover;
 }
 
 #hero-out {
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
+	height: 400px;
+	width: 100%;
+	overflow: hidden;
 }
 
-
-
 .about-container {
-    background-color: white;
-    color: #004617;
-    text-align: center;
-    padding: 5px;
-    border: 2px #004617 solid;
+	background-color: white;
+	color: #004617;
+	text-align: center;
+	padding: 5px;
+	border: 2px #004617 solid;
 }
 
 .join-container {
-    text-align: center;
-    padding: 5px;
-    background-color: #004617;
-    color: white;
+	text-align: center;
+	padding: 5px;
+	background-color: #004617;
+	color: white;
 }
 
 hr {
-    border-top: 1px solid white;
-    width: 100%;
+	border-top: 1px solid white;
+	width: 100%;
 }
 
 #circle-ball {
-    width: 300px;
-    height: 300px;
-    padding: 50px;
-    border-style: ridge;
-    border-color: white;
-    border-width: medium;
-    border-radius: 50%;
-    margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	padding: 50px;
+	border-style: ridge;
+	border-color: white;
+	border-width: medium;
+	border-radius: 50%;
+	margin: 0 auto;
 }
 
 #ball-bg {
-    background: url(../img/circle-ball.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    border-radius: 50%;
+	background: url(../img/circle-ball.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	border-radius: 50%;
 }
 
 .event-header {
-    text-align: center;
-    margin: 0 auto;
+	text-align: center;
+	margin: 0 auto;
 }
 
 
 /*-------------------------------------- Footer -------*/
 
 .site-footer {
-    background-color: #004617;
-    height: 250px;
-    
+	background-color: #004617;
+	height: 250px;
 }
 
+
 /*-------------------------------------- Social Media Icons -------*/
+
 .social-icons {
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 50px 0px, 50px, 0;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px 0px, 50px, 0;
 }
 
 .social-icons li {
-    display: inline;
+	display: inline;
 }
 
 .social-icons i {
-    font-size: xx-large;
-    margin: 30px;
-    padding: 20px;
-    padding-top: 5%;
-    color: white;
+	font-size: xx-large;
+	margin: 30px;
+	padding: 20px;
+	padding-top: 5%;
+	color: white;
 }
 
+
 /*-------------------------------------- Gallery -------*/
+
 .gallery {
-    clear: both;
-    text-align: center;   
+	clear: both;
+	text-align: center;
 }
 
 .gallery img {
-    width: 60%;
+	width: 60%;
 }
 
 .caption {
-  padding: 15px;
-  text-align: center;
-  text-decoration: underline;
+	padding: 15px;
+	text-align: center;
+	text-decoration: underline;
 }
+
 
 /*-------------------------------------- Media Query -------*/
 
-@media screen and (max-width: 1440px) and (min-width: 770px){
-
-    #title {
-        text-align: center;
-    }
-
-    #nav {
-        padding-left: 50px;
-        margin: 0 auto;    
-    }
-
-    hr {
-        display: none;
-    }
-
-    .gallery img {
-        max-width: 400px;
-    }  
-
-    #form-bg {
-    height: 600px;
-    width: 100%;
-    padding: 10px;
-    background-color: #cccccc;
-    background-image: url(../img/royal-birkdale..jpg);
-    background-position: center center;
-    background-size: cover; 
-    }
-
-    #contact-out {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    }
-
-    .enquire-here{
-    max-width: 800px;
-    margin: 0px auto;
-    position: relative;
-    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.6);
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 30px;
-}
-
-.enquire-here .title {
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    font-size: 25px;
-    line-height: 30px;
-    padding-bottom: 20px;
-    color: white;
-    
-}
-
-.contact-form .form-field{
-    position: relative;
-    margin:20px 0;
-}
-
-.contact-form .input-text {
-    display: block;
-    width: 80%;
-    height: 20px;
-    border-width: 0 0 2px 0;
-    border-color:black;
-    font-size: 15px;
-    line-height: 20px;
-}
-
-.contact-form .label {
-    float: left;
-    left: 15px;
-    bottom: 10px;
-    font-size: 10px;
-    line-height: 15px;
-    color: white;
-    cursor: text;
-}
-
-.contact-form .submit-btn {
-    display: inline-block;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 15px;
-    padding-bottom: 5px 10px;
-    border: white solid 2px;
-    width: 200px;
-    cursor: pointer;
-    background-color: #004617;
-}
-
-.container-from .row {
-    display: inline;
-    float: left;
-}
-
+@media screen and (max-width: 1440px) and (min-width: 770px) {
+	#title {
+		text-align: center;
+	}
+	#nav {
+		padding-left: 50px;
+		margin: 0 auto;
+	}
+	hr {
+		display: none;
+	}
+	.gallery img {
+		max-width: 400px;
+	}
+	#form-bg {
+		height: 600px;
+		width: 100%;
+		padding: 10px;
+		background-color: #cccccc;
+		background-image: url(../img/royal-birkdale..jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+	#contact-out {
+		height: 600px;
+		width: 100%;
+		overflow: hidden;
+	}
+	.enquire-here {
+		max-width: 800px;
+		margin: 0px auto;
+		position: relative;
+		box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.6);
+		background-color: rgba(0, 0, 0, 0.6);
+		padding: 30px;
+	}
+	.enquire-here .title {
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 2px;
+		font-size: 25px;
+		line-height: 30px;
+		padding-bottom: 20px;
+		color: white;
+	}
+	.contact-form .form-field {
+		position: relative;
+		margin: 20px 0;
+	}
+	.contact-form .input-text {
+		display: block;
+		width: 80%;
+		height: 20px;
+		border-width: 0 0 2px 0;
+		border-color: black;
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.contact-form .label {
+		float: left;
+		left: 15px;
+		bottom: 10px;
+		font-size: 10px;
+		line-height: 15px;
+		color: white;
+		cursor: text;
+	}
+	.contact-form .submit-btn {
+		display: inline-block;
+		color: #ffffff;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: 15px;
+		padding-bottom: 5px 10px;
+		border: white solid 2px;
+		width: 200px;
+		cursor: pointer;
+		background-color: #004617;
+	}
+	.container-from .row {
+		display: inline;
+		float: left;
+	}
 }
 
 @media screen and (max-width: 769px) and (min-width: 320px) {
-
-     #nav {
-        padding-left: 50px;
-        margin: 0 auto;
-        clear: both;   
-    }
-
-    
-
-
-
-@media screen and (max-width: 487px) and (min-width: 320px){
-
-    /*---------------Nav-------------*/
-
-    #nav {
-        padding-left: 10px;
-        margin: 0 auto;
-        clear: both;   
-    }
-
-    #nav li {
-        display: inline;
-        padding: 5px;
-        font-size: 10px;
-    }
-     
-    .gallery img {
-        width: 70%;
-        height: 200px;
-    }
-/*-------------------contact page -------------------*/
-   
-    .enquire-title{
-        max-width: 90%;
-        margin: 5px;
-        
-    }
-
-
-  /*-------------------------------------- Footer -------*/
-
-
-    .site-footer{
-        width: 100%;
-    }
-
-    .social-icons {
-        float: left;
-        display: inline;
-        padding: 0;
-        margin: 0 auto;
-
-    }
-
-     
-}
-
-
-
-
-
-
-
-
-
-
-
-/*--- contact page ---*/
-
-#form-bg {
-    height: 600px;
-    width: 100%;
-    padding: 10px;
-    background-color: #cccccc;
-    background-image: url(../img/royal-birkdale..jpg);
-    background-position: center center;
-    background-size: cover; 
-}
-
-#contact-out {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-}
-
-
-.enquire-here{
-    max-width: 800px;
-    margin: 0px auto;
-    position: relative;
-    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.6);
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 30px;
-}
-
-.enquire-here .title {
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    font-size: 25px;
-    line-height: 30px;
-    padding-bottom: 20px;
-    color: white;
-    
-}
-
-.contact-form .form-field{
-    position: relative;
-    margin:20px 0;
-}
-
-.contact-form .input-text {
-    display: block;
-    width: 80%;
-    height: 20px;
-    border-width: 0 0 2px 0;
-    border-color:black;
-    font-size: 15px;
-    line-height: 20px;
-}
-
-.contact-form .label {
-    float: left;
-    left: 15px;
-    bottom: 10px;
-    font-size: 10px;
-    line-height: 15px;
-    color: white;
-    cursor: text;
-}
-
-.contact-form .submit-btn {
-    display: inline-block;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 15px;
-    padding-bottom: 5px 10px;
-    border: white solid 2px;
-    width: 200px;
-    cursor: pointer;
-    background-color: #004617;
-}
-
-.container-from .row {
-    display: inline;
-    float: left;
-}
-
+	#nav {
+		padding-left: 50px;
+		margin: 0 auto;
+		clear: both;
+	}
+	@media screen and (max-width: 487px) and (min-width: 320px) {
+		/*---------------Nav-------------*/
+		#nav {
+			padding-left: 10px;
+			margin: 0 auto;
+			clear: both;
+		}
+		#nav li {
+			display: inline;
+			padding: 5px;
+			font-size: 10px;
+		}
+		.gallery img {
+			width: 70%;
+			height: 200px;
+		}
+		/*-------------------contact page -------------------*/
+		.enquire-title {
+			max-width: 90%;
+			margin: 5px;
+		}
+		/*-------------------------------------- Footer -------*/
+		.site-footer {
+			width: 100%;
+		}
+		.social-icons {
+			float: left;
+			display: inline;
+			padding: 0;
+			margin: 0 auto;
+		}
+	}
+	/*--- contact page ---*/
+	#form-bg {
+		height: 600px;
+		width: 100%;
+		padding: 10px;
+		background-color: #cccccc;
+		background-image: url(../img/royal-birkdale..jpg);
+		background-position: center center;
+		background-size: cover;
+	}
+	#contact-out {
+		height: 600px;
+		width: 100%;
+		overflow: hidden;
+	}
+	.enquire-here {
+		max-width: 800px;
+		margin: 0px auto;
+		position: relative;
+		box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.6);
+		background-color: rgba(0, 0, 0, 0.6);
+		padding: 30px;
+	}
+	.enquire-here .title {
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 2px;
+		font-size: 25px;
+		line-height: 30px;
+		padding-bottom: 20px;
+		color: white;
+	}
+	.contact-form .form-field {
+		position: relative;
+		margin: 20px 0;
+	}
+	.contact-form .input-text {
+		display: block;
+		width: 80%;
+		height: 20px;
+		border-width: 0 0 2px 0;
+		border-color: black;
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.contact-form .label {
+		float: left;
+		left: 15px;
+		bottom: 10px;
+		font-size: 10px;
+		line-height: 15px;
+		color: white;
+		cursor: text;
+	}
+	.contact-form .submit-btn {
+		display: inline-block;
+		color: #ffffff;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: 15px;
+		padding-bottom: 5px 10px;
+		border: white solid 2px;
+		width: 200px;
+		cursor: pointer;
+		background-color: #004617;
+	}
+	.container-from .row {
+		display: inline;
+		float: left;
+	}
 }
