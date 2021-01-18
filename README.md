@@ -102,13 +102,20 @@ Each page has a fully responsive footer section. The footer includes:
 
 # Testing
 ## Browsers tested
-* Chrome, Opera and Firefox, no issues.
+* The website has been tested in Chrome, no issues have been observed.
+* The website has been tested in Safari, no issues have been observed.
+* The website has been tested in Opera, no issues have been observed.
+* The website has been tested in Firefox, no issues have been observed.
 
 ## Features tested
 * All navigations links tested across all pages, no issues. 
 * All gallery images tested, when clicked open in new tab.
 * Text fields in contact form all working correctly.
 * Site fully responsive to all breakpoints. 
+
+## Screenshots
+### Testing User Stories
+
 
 ## Validators
 ### HTML
@@ -147,6 +154,7 @@ Deployment: The site will be deployed by https://pages.github.com/
 * Credit to Upsplash for images used. 
 ## Code 
 * I found that tutorials on the Code Institute program and certain elements for the Love Runnig Project came in useful to understanding how to code certain aspects of the site.
+* Bootstrap - using the bootstrap framework allowed me to ensure the the website was responsive across all pages. 
 ## Acknowledgments
 * I have to say thank you to memebers of existing Golf Societies who I interviewed prior to completing this project.
 Especially Matthew Davison who advised what features they would expect to find on a site, being a memeber of one himself.
