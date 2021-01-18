@@ -118,7 +118,7 @@ No errors/warnings.
 #### gallery.html
 No errors/warnings.
 #### contact.html
-Initially an error was found regarding having a heading had a h1 tag that was not a top priority heading - edited to h2 tag - fixed.
+Initially an error was found regarding having a h1 tag that was not a top priority heading - edited to h2 tag - fixed.
 ### CSS
 This has passed through validator - no errors/warnings.
 
@@ -146,7 +146,7 @@ Deployment: The site will be deployed by https://pages.github.com/
 ## Media
 * Credit to Upsplash for images used. 
 ## Code 
-* I found that tutorials on the Code Institute program and certain elements for the Love Runnig Project can in useful to understanding how to code certain aspects of the site.
+* I found that tutorials on the Code Institute program and certain elements for the Love Runnig Project came in useful to understanding how to code certain aspects of the site.
 ## Acknowledgments
 * I have to say thank you to memebers of existing Golf Societies who I interviewed prior to completing this project.
 Especially Matthew Davison who advised what features they would expect to find on a site, being a memeber of one himself.
