@@ -171,10 +171,8 @@ hr {
 		width: 100%;
 		padding: 10px;
 		background-color: #cccccc;
-		background-image: url(../img/royal-birkdale..jpg);
-		background-position: center center;
-		background-size: cover;
-	}
+    }
+    
 	#contact-out {
 		height: 600px;
 		width: 100%;
