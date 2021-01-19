@@ -135,43 +135,33 @@ hr {
 	height: 250px;
 }
 
+.icon-div {
+    padding-top: 15px;
+}
+
 
 /*-------------------------------------- Social Media Icons -------*/
 
 .social-icons {
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 50px;
-}
-
-.social-icons li {
-	display: inline;
-}
-
-.social-icons {
 	font-size: xx-large;
-	margin: 30px;
-	
-	padding-top: 5%;
+	margin: 5px;
+	display: inline;
+	margin-top: 10px;
 	color: white;
 }
 
 
 /*-------------------------------------- Gallery -------*/
 
-.gallery {
-	clear: both;
-	text-align: center;
-}
-
 .gallery img {
-	width: 60%;
+    width: 60%;
+    height: 300px;
 }
 
 .caption {
 	padding: 15px;
 	text-align: center;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 
@@ -363,16 +353,7 @@ hr {
 			max-width: 90%;
 			margin: 5px;
 		}
-		/*-------------------------------------- Footer -------*/
-		.site-footer {
-			width: 100%;
-		}
-		.social-icons {
-			float: left;
-			display: inline;
-			padding: 0;
-			margin: 0 auto;
-        }
+	
     }
 
 	
