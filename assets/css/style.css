@@ -194,7 +194,12 @@ hr {
 		line-height: 30px;
 		padding-bottom: 20px;
 		color: white;
-	}
+    }
+    
+    .contact-form{
+        margin-bottom: 10px;
+    }
+
 	.contact-form .form-field {
 		position: relative;
 		margin: 20px 0;
@@ -257,12 +262,10 @@ hr {
 		width: 100%;
 		padding: 10px;
 		background-color: #cccccc;
-		background-image: url(../img/royal-birkdale..jpg);
-		background-position: center center;
-		background-size: cover;
-	}
+    }
+    
 	#contact-out {
-		height: 600px;
+		height: 650px;
 		width: 100%;
 		overflow: hidden;
 	}
