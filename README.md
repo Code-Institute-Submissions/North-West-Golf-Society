@@ -119,7 +119,20 @@ Potential copy and past error. Error resolved by editing tag to correct format.
 
 ## Screenshots
 ### Testing User Stories
+![Home image screenshot](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./screenshots/home-screenshot.png)
+* Accessible navigation bar clearly visible, purpose for site very evident from the offset.
 
+![Image of event section](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./screenshots/events-screenshot.png)
+* Section clearly shows date/location/winner of previous events also responsive footer with links to relavent social accounts.
+
+![Gallery image screenshot](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./screenshots/gallery-screenshot.png)
+* Image showing previous events held and the respective courses played. Ensuring user has good understanding of where this society plays.
+
+![Form to enquire about joining](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./screenshots/form-screenshot.png)
+* Simply contact form user or member of other society can complete to enquire about joining or arranging a round.
+
+![Image highlighting responsiveness of site](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./screenshots/ipad-screenshot.png)
+* Image showing display on Ipad showing site is accessible on different devices.
 
 ## Validators
 ### HTML
