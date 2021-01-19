@@ -19,7 +19,7 @@ h1 {
 }
 
 
-/*-------------------------------------- Header -------*/
+/*--Header --*/
 
 #title {
 	background-color: #004617;
@@ -65,7 +65,7 @@ h1 {
 }
 
 
-/*-------------------------------------- Hero -------*/
+/*-- Hero -*/
 
 #hero {
 	height: 450px;
@@ -128,7 +128,7 @@ hr {
 }
 
 
-/*-------------------------------------- Footer -------*/
+/*--Footer -*/
 
 .site-footer {
 	background-color: #004617;
@@ -140,7 +140,7 @@ hr {
 }
 
 
-/*-------------------------------------- Social Media Icons -------*/
+/*-- Social Media Icons -*/
 
 .social-icons {
 	font-size: xx-large;
@@ -151,7 +151,7 @@ hr {
 }
 
 
-/*-------------------------------------- Gallery -------*/
+/*-- Gallery --*/
 
 .gallery img {
     width: 60%;
@@ -165,7 +165,7 @@ hr {
 }
 
 
-/*--- contact page ---*/
+/*--contact page --*/
 	#form-bg {
 		height: 600px;
 		width: 100%;
@@ -241,7 +241,7 @@ hr {
 
 
 
-/*-------------------------------------- Media Query -------*/
+/*-- Media Query --*/
 
 @media screen and (max-width: 1440px) and (min-width: 770px) {
 	#title {
@@ -334,7 +334,7 @@ hr {
     }
 }
 	@media screen and (max-width: 487px) and (min-width: 320px) {
-		/*---------------Nav-------------*/
+		/*-- Nav-*/
 		#nav {
 			padding-left: 10px;
 			margin: 0 auto;
@@ -346,10 +346,10 @@ hr {
 			font-size: 10px;
 		}
 		.gallery img {
-			width: 70%;
+			width: 50%;
 			height: 200px;
 		}
-		/*-------------------contact page -------------------*/
+		/*-- contact page -*/
 		.enquire-title {
 			max-width: 90%;
 			margin: 5px;
