@@ -90,7 +90,7 @@ Each page has a fully responsive footer section. The footer includes:
 ## Features left to implement 
 * Members area/login page.
 * Page for local driving ranges with links to external sites.
-* leaderbord for society. 
+* Leaderboard for society. 
 
 # Technologies used
 * This project has used simple HTML5 and CSS3.
@@ -107,6 +107,10 @@ Each page has a fully responsive footer section. The footer includes:
 * The website has been tested in Opera, no issues have been observed.
 * The website has been tested in Firefox, no issues have been observed.
 
+## Manual Testing
+* When completing manual testing error found with Meta Viewport tag.
+Potential copy and past error. Error resolved by editing tag to correct format. 
+
 ## Features tested
 * All navigations links tested across all pages, no issues. 
 * All gallery images tested, when clicked open in new tab.
@@ -121,13 +125,14 @@ Each page has a fully responsive footer section. The footer includes:
 ### HTML
 HTML code has passed through W3C Validator. 
 #### index.html
-No errors/warnings.
+No errors/warnings have been observed.
 #### gallery.html
-No errors/warnings.
+No errors/warnings have been observed.
 #### contact.html
-Initially an error was found regarding having a h1 tag that was not a top priority heading - edited to h2 tag - fixed.
+Error found on contact.html form, having a h1 tag on header that was not a top priority heading. 
+This error was solved by replacing with a h2 tag.
 ### CSS
-This has passed through validator - no errors/warnings.
+No errors/warnings have been observed.
 
 # Deployment 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
