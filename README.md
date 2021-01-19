@@ -134,6 +134,11 @@ Potential copy and past error. Error resolved by editing tag to correct format.
 ![Image highlighting responsiveness of site](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./screenshots/ipad-screenshot.png)
 * Image showing display on Ipad showing site is accessible on different devices.
 
+## Testing deployed site
+### Known bugs
+![Image of bug in deployed site](https://browser-bc5b3951-22f2-4c0d-bbd7-9cda9ca5e490.ws-eu03.gitpod.io/workspace/North-West-Golf-Soiciety./screenshots/known-bug-gallery.png)
+* Once site was deployed 2 images from gallery page would not load correctly. Alt text displaying. 
+
 ## Validators
 ### HTML
 HTML code has passed through W3C Validator. 
